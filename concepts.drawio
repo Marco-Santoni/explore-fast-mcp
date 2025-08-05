@@ -26,6 +26,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-57" value="Can proxy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-2" target="ZOOlHC0b_KPHWnPwV2j9-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="420" />
+              <mxPoint x="600" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-58" value="Can import" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-2" target="ZOOlHC0b_KPHWnPwV2j9-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-59" value="Can mount" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-2" target="ZOOlHC0b_KPHWnPwV2j9-56">
+          <mxGeometry x="0.0038" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="420" />
+              <mxPoint x="510" y="580" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZOOlHC0b_KPHWnPwV2j9-2" value="FastMCP Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="380" width="120" height="80" as="geometry" />
         </mxCell>
@@ -93,14 +113,6 @@
         <mxCell id="ZOOlHC0b_KPHWnPwV2j9-26" value="Resource Template" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="860" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-28" value="Can be composed with another" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-2" target="ZOOlHC0b_KPHWnPwV2j9-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="260" y="420" />
-              <mxPoint x="260" y="392" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ZOOlHC0b_KPHWnPwV2j9-29" value="Stdio&lt;div&gt;for local apps&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="60" width="120" height="80" as="geometry" />
         </mxCell>
@@ -148,11 +160,47 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-62" value="send info and error" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-43" target="ZOOlHC0b_KPHWnPwV2j9-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="420" />
+              <mxPoint x="-20" y="480" />
+              <mxPoint x="-230" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-64" value="Can report progress to" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-43" target="ZOOlHC0b_KPHWnPwV2j9-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="420" />
+              <mxPoint x="-20" y="360" />
+              <mxPoint x="-188" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZOOlHC0b_KPHWnPwV2j9-43" value="Context" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="380" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-61" value="request structured input from" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-48" target="ZOOlHC0b_KPHWnPwV2j9-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZOOlHC0b_KPHWnPwV2j9-48" value="Client&#39;s LLM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-290" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-55" value="pre-written instructions that show users exactly what to ask for when they want to use specific tools" style="text;whiteSpace=wrap;align=right;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="700" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-56" value="Another MCP Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-60" value="Users" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-66" value="Can be added to a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZOOlHC0b_KPHWnPwV2j9-65" target="ZOOlHC0b_KPHWnPwV2j9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZOOlHC0b_KPHWnPwV2j9-65" value="Middleware" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
